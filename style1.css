@@ -1,0 +1,47 @@
+/* body {
+    background-color: #060606;
+    background-image: url('IMG_2651.JPG');
+  background-size: cover;
+  background-position: center center;
+  margin: 500px;
+  padding: 0;
+  
+} */
+h1{
+    font-family: 'Rum Raisin', sans-serif;
+    font-size: 100px;
+    text-align: center;
+   
+}
+.container {
+    display: flex;
+}
+.card{
+    position: relative;
+    left: 0px;
+}
+.card img{
+    width: 100%;
+}
+.card:not(:first-child) {
+    margin-left: -50px;
+}
+.card:hover {
+    transform: translate(-20px);
+}
+.card:hover ~ .card {
+    left: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rum Raisin', sans-serif;
+    font-size: 40px;
+   margin-top: 50px;
+}
+
+.supertramp{
+    width: 350px;
+    
+}
